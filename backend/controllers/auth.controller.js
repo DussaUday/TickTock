@@ -22,8 +22,8 @@ export const signup = async (req, res) => {
 
 		// https://avatar-placeholder.iran.liara.run/
 
-		const boyProfilePic = `https://xsgames.co/randomusers/avatar.php?g=male${username}`;
-		const girlProfilePic = `https://xsgames.co/randomusers/avatar.php?g=female${username}`;
+		const boyProfilePic = `xsgames.co/randomusers/avatar.php?g=male${username}`;
+		const girlProfilePic = `xsgames.co/randomusers/avatar.php?g=female${username}`;
 
 		const newUser = new User({
 			fullName,
